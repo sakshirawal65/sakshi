@@ -1,0 +1,150 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url(https://assets.architecturaldigest.in/photos/60083bf6b3d78db39997d3b0/16:9/w_2560%2Cc_limit/shivadya-manali-featured-image-1366x768.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:-200px;
+    animation: hero-anima 20s infinite linear; 
+    transform: translate(-100% -100%);
+    /* overflow: hidden; */
+}
+
+.font{
+    font-family: Harlow Solid;
+}
+.head-font{
+    font-family: Engravers MT;
+}
+/* .menu{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    #pages{
+        display: none;
+    }   
+    .menu1{
+        display:block;
+    }    
+} */
+@keyframes hero-anima {
+    0%{
+        background-image: url(https://www.justahotels.com/wp-content/uploads/2023/01/Cliffend-_-About-us-2.png);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/840x460/402203879.jpg?k=393acf579a937c6a04b5c1b63db5c1dfc892421db36712431e229e029d1258e3&o=);    
+        background-size: cover;
+
+    }
+    50%{
+        background-image: url(https://assets.cntraveller.in/photos/60ba0cf51fa22668f0259a81/master/w_1600%2Cc_limit/Hiltonshillim.jpg);
+        background-size: cover;
+
+    }
+    75%{
+        background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/840x460/402203879.jpg?k=393acf579a937c6a04b5c1b63db5c1dfc892421db36712431e229e029d1258e3&o=);
+        background-size: cover;
+
+    }
+}
+#room{
+    display: none;
+}
+.rooms:hover #room{
+    display: block;
+}
+#about{
+    display: none;
+}
+.aboutus:hover #about{
+    display: block;
+}
+#services{
+    display: none;
+}
+.facilities:hover #services{
+    display: block;
+}
+#dining{
+    display: none;
+}
+.dinner:hover #dining{
+    display: block;
+}
+#catering{
+    display: none;
+}
+.caterres:hover #catering{
+    display: block;
+}
+.line{
+    display: none;
+    
+}
+.image:hover .line{
+    display: block;
+    
+}
+.image:hover .title{
+   position: absolute;
+   top: 10px;
+}
+.image1{
+    height: 386px;
+
+    background-image: url(https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU=);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+.image2{
+    height: 386px;
+    background-image: url(https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+.image3{
+    height: 386px;
+    background-image: url(https://english.cdn.zeenews.com/sites/default/files/2016/05/26/492506-hotel-room.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+.room-detail1{
+    display: none;
+}
+.image1:hover .room-detail1{
+    display: block;
+    padding:40px 0px;
+}
+.room-detail2{
+    display: none;
+}
+.image2:hover .room-detail2{
+    display: block;
+    padding:40px 0px;
+}
+.room-detail3{
+    display: none;
+}
+.image3:hover .room-detail3{
+    display: block;
+    padding:40px 0px;
+}
+.detail-2{
+    display: block;
+}
+.page-2:hover .detail-2{
+    display: block;
+}
+.page-2:hover .detail-1{
+    display: none;
+}
+
+
+
